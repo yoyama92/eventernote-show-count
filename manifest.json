@@ -1,0 +1,17 @@
+{
+  "name": "Eventernote Count Actor",
+  "description": "Eventernote のお気に入り声優/アーティストにイベント参加回数を表示させるChromeの拡張機能",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": [
+        "content_script.js"
+      ],
+      "matches": [
+        "https://www.eventernote.com/users",
+        "https://www.eventernote.com/users/*"
+      ]
+    }
+  ]
+}
